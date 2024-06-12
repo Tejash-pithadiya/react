@@ -1,0 +1,91 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.firstsection{
+    height: 100vh;
+    background: url(img/bg.jpg) center center/cover;
+}
+
+.hero{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.717);
+    
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.main h1{
+    font-size: 74px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-weight: 500;
+}
+.main p{
+    font-size: 20px;
+    color: white;
+    margin: 40px 0 0 0;
+}
+.main .button1{
+    margin: 40px 0 0 0;
+    padding: 30px 80px;
+    background-color: #C26947;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+ 
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .main h1 {
+        font-size: 60px;
+        padding-top: 120px;
+    }
+
+    .main p {
+        font-size: 1rem;
+    }
+
+    .button1 {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .firstsection{
+        height: 120vh;
+    }
+    .hero{
+        height: 120vh;
+    }
+
+}
+@media (max-width: 400px) {
+    
+    .container{
+        width: 100%;
+    }
+    .main h1 {
+        font-size: 50px;
+    }
+
+   .main p {
+        font-size: 12px;
+    }
+
+    .button1 {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+}
+
+
+

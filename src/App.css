@@ -1,0 +1,713 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.box {
+  background-color: #F4F0EF;
+  width: 100%;
+  position: relative;
+  /* border: 2px solid red; */
+  height: 669px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+
+.box .chlBox1 {
+  /* border: 2px solid black; */
+  /* background-color: beige; */
+  margin-right: 73px;
+  width: 475px;
+  height: 90%;
+}
+
+.box .chlBox1 .title {
+  margin-left: 26px;
+  margin-bottom: 5px;
+  color: #C26947;
+}
+
+.box .chlBox1 h1 {
+  margin-left: 26px;
+  font-size: 44px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.about .span {
+  margin-left: 26px;
+  margin-bottom: 66px;
+  font-size: 50px;
+}
+
+.about h5 span {
+  font-size: 16px;
+}
+
+.chlAbout {
+  /* border: 2px solid red; */
+  width: 364px;
+  margin: 18px 10px;
+}
+
+.chlAbout.aboutData {
+  font-size: 18px;
+  margin-top: 4%;
+}
+
+.chlAbout.aboutData p {
+  margin-block-start: 0;
+  margin-block-end: .9rem;
+}
+
+.box .chlBox2 {
+  /* border: 2px solid black; */
+  margin-top: 93px;
+  width: 491px;
+  height: 477px;
+}
+
+.box .chlBox2 .img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* =================================================
+                  COFFE TIME
+=================================================  */
+
+.CoffeTime {
+  margin-top: 63PX;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  position: relative;
+  /* border: 2px solid red; */
+  height: 669px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+
+.CoffeTime .chlCoffe2 {
+  /* border: 2px solid black; */
+  margin-left: 133px;
+  width: 588px;
+  height: 90%;
+}
+
+.CoffeTime .chlCoffe2 .title {
+  margin-bottom: 5px;
+  color: #C26947;
+}
+
+.CoffeTime .chlCoffe2 h1 {
+  margin-bottom: 25px;
+  font-size: 44px;
+}
+
+.CoffeTime .chlCoffe2 .menu .chlMenu .chlp {
+  margin-top: -6px;
+}
+
+.chlCoffe2 .button {
+  border-radius: 10px;
+  height: 64px;
+  width: 206px;
+  background-color: #C26947;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 63px;
+  transition: all .3 ease-in;
+
+}
+
+.chlCoffe2 .button:hover {
+  background-color: black;
+}
+
+.CoffeTime .chlCoffe1 {
+  margin-left: -54px;
+  /* border: 2px solid black; */
+  width: 491px;
+  height: 477px;
+  margin-top: 52px;
+}
+
+.CoffeTime .chlCoffe1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-item .description {
+  max-width: 80%;
+}
+
+.menu-item .description h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.menu-item .description p {
+  margin: 0;
+  color: #777;
+}
+
+.menu-item .price {
+  font-size: 24px;
+  color: #b5651d;
+}
+
+
+
+
+/* =================================================
+                  Video Section
+=================================================  */
+
+.Videop {
+  margin-top: 90px;
+}
+
+.video-container {
+  max-width: 71%;
+  aspect-ratio: 16 / 9;
+  position: relative;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 104%;
+  height: 96%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* =================================================
+                  Menu Section
+=================================================  */
+
+.menuHero {
+  background-color: #FFFFFF;
+}
+
+
+.Text {
+  /* border: 2px solid black; */
+  margin-top: 87px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  /* border: 2px solid red; */
+  max-width: 794px;
+}
+
+.Text .text h1 {
+  font-weight: 500;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+
+}
+
+.Text .text p {
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+
+}
+
+.Menu {
+  margin-bottom: 100px;
+  margin-top: 63PX;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  position: relative;
+  /* border: 2px solid red; */
+  height: 669px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.menu1 .menu-item .description p {
+  margin-top: -10px;
+}
+
+.menu2 .menu-item .description p {
+  margin-top: -10px;
+}
+
+.menu1 .title {
+  color: #C26947;
+  margin-bottom: 31px;
+  text-align: center;
+}
+
+.menu2 .title {
+  color: #C26947;
+  margin-bottom: 31px;
+  text-align: center;
+}
+
+.menu1 {
+  margin-right: 15px;
+  /* border: 2px solid black; */
+  width: 564px;
+  height: 90%;
+}
+
+.menu2 {
+  margin-left: 15px;
+  /* border: 2px solid black; */
+  width: 564px;
+  height: 90%;
+}
+
+
+/* =================================================
+                  Blog Section
+=================================================  */
+
+
+.Blog {
+  margin-top: 45px;
+  margin-bottom: 104px;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: auto;
+}
+
+.chlblog {
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.Blog1 {
+  margin-left: 100px;
+  /* border: 2px solid; */
+  width: 678px;
+}
+
+.Blog1 .chlblog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Blog1 .img {
+  /* border: 2px solid red; */
+  width: 675;
+  height: 448px;
+  margin-top: 37px;
+}
+
+.Blog1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Blog1 span {
+  color: #b5651d;
+  margin: 0 7px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+}
+
+.Blog1 .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 23px;
+}
+
+.Blog1 .text .h1 {
+  margin-top: 13px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.Blog1 .text p {
+  margin-bottom: 33px;
+  /* border: 2px solid; */
+  /* margin-left: 29px; */
+  max-width: 91%;
+  margin-top: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+
+
+
+.Blog2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  /* border: 2px solid red; */
+  width: 404px;
+  margin-left: 24px;
+}
+
+.blog-section,
+.tagging-section {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.blog-section h2,
+.tagging-section h2 {
+  margin-top: 14px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-section h2,
+.tagging-section h2 {
+  color: #b5651d;
+}
+
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid gray;
+}
+
+.blog-image {
+  width: 100px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.blog-content h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.blog-content p {
+  margin: 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #C26947;
+  color: white;
+  padding: 14px 25px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tagging-section .tag:hover {
+  background-color: #060606de;
+}
+
+.blog-item:hover h3 {
+  color: #b5651d;
+}
+
+
+/* =================================================
+                  Menu first section css
+=================================================  */
+
+.contact-us {
+  position: relative;
+  height: 300px;
+  background: url('img/bg.jpg') no-repeat center center/cover;
+}
+
+.contact-overlay {
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.685);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  text-align: center;
+  color: white;
+}
+
+.contact-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 74px;
+  margin: 0;
+}
+
+.contact-content p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+/* =================================================
+                  Responsive
+=================================================  */
+
+
+/* =================================================
+                  Responsive
+=================================================  */
+
+
+@media screen and (max-width:1270px) {
+
+  .CoffeTime .chlCoffe1 {
+    margin-left: 58px;
+    width: 40vw;
+    height: 35vw;
+  }
+
+  .CoffeTime .chlCoffe2 {
+    margin-left: 33px;
+    width: 588px;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width:1209px) {
+  .Blog1 {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .box .chlBox1 {
+    margin: 0 10px;
+    width: 459px;
+    height: 90%;
+  }
+
+  .box .chlBox2 {
+    margin-top: 93px;
+    width: 421px;
+    height: 429px;
+  }
+}
+
+@media screen and (max-width:930px) {
+
+  .box {
+    height: auto;
+  }
+
+  .box .chlBox1 {
+    width: 100%;
+  }
+
+  .box .chlBox2 {
+
+    margin-top: 16px;
+    height: auto;
+    width: 74vw;
+  }
+
+  .chlAbout {
+    width: 85vw;
+    margin: 18px 10px;
+  }
+
+  .CoffeTime {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  .CoffeTime .chlCoffe2 {
+    margin-left: -4px;
+    width: 98%;
+    height: 90%;
+  }
+
+  .CoffeTime .chlCoffe1 {
+    margin-left: 1px;
+    width: 90vw;
+    height: 44vw;
+  }
+
+  .video-container video {
+    width: 101%;
+  }
+
+  .video-container {
+    max-width: 98%;
+  }
+
+  .Menu {
+    flex-direction: column;
+  }
+
+  .coman {
+    width: 98%;
+  }
+
+  .menu2 {
+    margin-top: 36px;
+  }
+
+  .Blog {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Blog1 {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .Blog1 .img {
+    width: 95vw;
+    height: 62vw;
+  }
+
+  .Blog2 {
+    width: auto;
+    margin-left: 1px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+
+  .Text .text h1 {
+    font-weight: 600;
+    font-size: 30px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-item .description,
+  .menu-item .price {
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+  }
+
+  .menu-item .price {
+    text-align: right;
+    width: 100%;
+  }
+
+  .Videop {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width:560px) {
+
+
+  .box .chlBox2 {
+    width: 90vw;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about .span {
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+  }
+
+  .chlAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .chlAbout .aboutData p {
+    text-align: center;
+
+  }
+
+  .box .chlBox1 h1 {
+    margin-left: 26px;
+    font-size: 8vw;
+  }
+
+  .chlCoffe2 h1 {
+    font-size: 10vw;
+  }
+
+  .CoffeTime .chlCoffe2 h1 {
+    font-size: 8vw;
+  }
+
+}
+
+@media screen and (max-width:425px) {
+
+  .box .chlBox1 .title {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width:375px) {
+
+  .Blog1 .text .h1 {
+    font-size: 13vw;
+  }
+}

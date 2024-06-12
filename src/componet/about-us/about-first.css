@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.about-us {
+    position: relative;
+    height: 300px;
+    background: url('img/bg.jpg') no-repeat center center/cover;
+  }
+  
+  .overlay {
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.685);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+  }
+  
+  .content h1 {
+    font-family: "Playfair Display", serif;
+  font-size: 74px;
+    margin: 0;
+  }
+  
+  .content p {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .coffeehouse-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.coffeehouse-image {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.coffeehouse-image img {
+    width: 100%;
+    height: auto;
+}
+
+.coffeehouse-content {
+    flex: 1.5;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.coffeehouse-content h3 {
+  font-family: "Poppins", sans-serif;
+  color: #c26947;
+  font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.coffeehouse-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.coffeehouse-content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+    .coffeehouse-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .coffeehouse-content h1 {
+        font-size: 28px;
+        text-align: left;
+      }
+    .coffeehouse-content h3 {
+        font-size: 18px;
+        text-align: left;
+      }
+      
+      .coffeehouse-content p {
+      text-align: left;
+        font-size: 14px;
+        
+    }
+    .coffeehouse-image{
+      margin-left: 0;
+    }
+}
